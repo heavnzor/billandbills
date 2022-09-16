@@ -1,0 +1,15 @@
+{
+    "name": "antonu-mariamela/billandbill",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mela Company",
+            "email": "heavnzor@protonmail.com"
+        }
+    ],
+    "require": {}
+}

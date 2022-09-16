@@ -1,0 +1,83 @@
+body {
+  background-color: white;
+  color: black;
+}
+
+a {
+  color: violet;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+main {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+/*
+.box {
+  display: block;
+  height: auto;
+  width: fit-content;
+  border: solid violet 2px;
+  padding: 1rem;
+}
+*/
+.boxClients {
+  display: inline-block;
+  width: 80px;
+  height: 120px;
+  border: solid rgb(0, 115, 255) 2px;
+  border-radius: 0.3rem;
+  margin: 1rem;
+  padding: 0.3rem;
+  text-align: center;
+}
+.boxLogout {
+  display: inline-block;
+  width: 80px;
+  height: 120px;
+  border: solid rgb(255, 0, 64) 2px;
+  border-radius: 0.3rem;
+  margin: 1rem;
+  padding: 0.3rem;
+  text-align: center;
+}
+.boxBills {
+  display: inline-block;
+  width: 80px;
+  height: 120px;
+  border: solid rgb(47, 255, 144) 2px;
+  border-radius: 0.3rem;
+  margin: 1rem;
+  padding: 0.3rem;
+  text-align: center;
+}
+
+nav {
+  text-align: center;
+}
+
+.link {
+  text-align: center;
+}
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+@media (max-width: 575.98px) {
+  .imgMenu {
+    max-width: 40px;
+  }
+  .container {
+    margin: auto;
+  }
+  .logo {
+    width: 40%;
+  }
+}
